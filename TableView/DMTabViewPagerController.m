@@ -194,7 +194,6 @@
     return cell;
 }
 -(void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath{
-    tableView.
     NSLog(@" willDisplayCell %d",indexPath.row);
     UIButton * fristBtn = [tabBarBtnList objectAtIndex:indexPath.row];
     [UIView animateWithDuration:0.2 animations:^(){
